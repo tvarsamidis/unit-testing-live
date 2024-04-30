@@ -14,7 +14,7 @@
             <!-- up to Java 22 -->
             <!-- version>5.8.2</version-->
             <!-- up to Java 17 -->
-            <version>5.8.2</version>
+            <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
