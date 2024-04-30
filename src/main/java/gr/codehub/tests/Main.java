@@ -9,6 +9,9 @@ import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
+
+        assert(1 == 2);
+
         PaymentService paymentService = null;
         CartService cartService = new CartServiceImpl(paymentService);
         cartService.addItem(new Item("Apple", BigDecimal.valueOf(1), 1));
